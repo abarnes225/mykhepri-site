@@ -1,0 +1,200 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Khepri is a privately operated, local-first AI assistant with voice interaction and authorized Google Calendar integration.">
+  <title>Khepri | Personal AI Assistant</title>
+
+  <style>
+    :root {
+      --bg: #101821;
+      --panel: #1a2632;
+      --text: #f0f4f6;
+      --muted: #b7c5ce;
+      --accent: #64c5b5;
+      --border: #354753;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.7;
+    }
+
+    .container {
+      width: min(900px, 90%);
+      margin: 0 auto;
+    }
+
+    header {
+      padding: 24px 0;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .brand {
+      color: var(--accent);
+      font-size: 25px;
+      font-weight: bold;
+      letter-spacing: 2px;
+      text-decoration: none;
+    }
+
+    main {
+      padding: 85px 0;
+    }
+
+    .eyebrow {
+      color: var(--accent);
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 13px;
+      font-weight: bold;
+    }
+
+    h1 {
+      font-size: clamp(36px, 6vw, 58px);
+      line-height: 1.2;
+      margin: 15px 0 25px;
+    }
+
+    h2 {
+      margin-top: 0;
+      font-size: 22px;
+    }
+
+    p {
+      color: var(--muted);
+      margin-bottom: 20px;
+    }
+
+    .intro {
+      font-size: 19px;
+      max-width: 750px;
+    }
+
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 32px;
+      margin-top: 35px;
+    }
+
+    .panel p:last-child {
+      margin-bottom: 0;
+    }
+
+    a {
+      color: var(--accent);
+    }
+
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 30px 0;
+      font-size: 14px;
+    }
+
+    footer a {
+      margin-right: 24px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <a class="brand" href="/">KHEPRI</a>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="eyebrow">Private AI Technology</div>
+
+    <h1>Personal Intelligence.<br>Locally Controlled.</h1>
+
+    <p class="intro">
+      Khepri is a privately operated, local-first artificial
+      intelligence assistant designed to support everyday
+      activities through natural voice interaction, calendar
+      assistance, and authorized software integrations.
+    </p>
+
+    <section class="panel">
+      <h2>About Khepri</h2>
+
+      <p>
+        Khepri is an independently developed personal AI
+        assistant operated on privately controlled computing
+        hardware. It is intended for individual use and is not
+        offered as a public AI service.
+      </p>
+
+      <p>
+        Khepri combines local language processing with
+        permission-controlled tools to help its operator
+        retrieve information and manage personal activities.
+      </p>
+    </section>
+
+    <section class="panel">
+      <h2>Google Calendar Integration</h2>
+
+      <p>
+        Khepri uses the Google Calendar API to access calendar
+        information with the Google account holder's explicit
+        authorization.
+      </p>
+
+      <p>
+        Its current integration requests read-only calendar
+        permissions. These permissions allow Khepri to identify
+        accessible calendars and retrieve event information
+        to answer scheduling questions and help evaluate
+        availability.
+      </p>
+
+      <p>
+        Khepri does not require public access to the
+        assistant or its local computer for this integration.
+        Calendar authorization is managed separately through
+        Google's OAuth consent process.
+      </p>
+    </section>
+
+    <section class="panel">
+      <h2>Privacy and User Control</h2>
+
+      <p>
+        Khepri is designed around local operation, explicit
+        authorization, and controlled access to external
+        services.
+      </p>
+
+      <p>
+        Details about Google account permissions, data use,
+        storage, and authorization controls are provided in
+        the <a href="/privacy.html">Privacy Policy</a>.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <a href="/">Home</a>
+      <a href="/privacy.html">Privacy Policy</a>
+
+      <p>
+        Khepri — Privately Operated Personal AI Assistant
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
